@@ -70,9 +70,9 @@ public class ControlFlowExercises {
 //                System.out.printf("%-7d| %-7d| %-7d%n", i, square, cube);
 //            }
 //
-//            System.out.print("Do you want to continue? (yes/no): ");
+//            System.out.print("Do you want to continue? (y/n): ");
 //            usersChoice = scanner.next();
-//        } while (usersChoice.equalsIgnoreCase("yes"));
+//        } while (usersChoice.equalsIgnoreCase("y"));
 //
 //        System.out.println("Thank you for using the program!");
 //        scanner.close();
@@ -99,7 +99,7 @@ public class ControlFlowExercises {
 
             System.out.print("Do you want to continue? (y/n): ");
             usersChoice = scanner.next();
-        } while (usersChoice.equalsIgnoreCase("yes"));
+        } while (usersChoice.equalsIgnoreCase("y"));
 
         System.out.println("Thank you for using the program!");
         scanner.close();
